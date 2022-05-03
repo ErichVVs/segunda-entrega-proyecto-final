@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ,  footer{
+    background-color: #000 !important;
+    color: whitesmoke;
+}
+.primero{
+    background-color: rgb(34, 25, 7);
+    color: whitesmoke;
+}
+
+.btn-dark:hover{
+    background-color: rgb(173, 151, 103);
+}
+
+@media (max-width: 992px){
+.ocultarSmMd{
+        display: none;
+    }
+}
+
+@media (max-width: 578px){
+.ocultarSm{
+        display: none;
+
+    }    
+}
